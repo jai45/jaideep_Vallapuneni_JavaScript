@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Epam | LoginPage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet"  href="epam.css">
+    <script src="validate.js"></script>
+</head>
+<style type="text/css">
+    h4 { 
+            display: flex; 
+            flex-direction: row; 
+        } 
+          
+        h4:before, 
+        h4:after { 
+            content: ""; 
+            flex: 1 1; 
+            border-bottom: px solid #000; 
+            margin: auto; 
+        } 
+          
+        img { 
+            height: 100px; 
+            width: 100px; 
+            border-radius: 50%; 
+        }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4 offset-4">
+            <div class="header">Sign in</div>
+            <div class="form-group mt-3">
+                <input type="text" id="uname" placeholder="mail@example.com" class="form-control">
+            </div>
+            <div class="form-group">
+                
+                <input type="password" id="pass" placeholder="password" class="form-control">
+            </div>
+            <button type="button" onclick="validate()" class="btn btn-info">Sign in</button>
+
+            <a href="#" id="a1" style="text-align: left;">Forget your password?</a>      
+            <a href="#" id="a2" style="text-align: right;">Register</a>
+         <h4 >or</h4>
+         <button type="button" class="btn" style="background-color:mediumblue; color: white;">f</button>
+         <br><br>
+         <button type="button" class="btn" style="background-color: rgb(221, 75, 57); color: white;">g</button>
+         <br><br>
+         <button type="button" class="btn" style="background-color: rgb(212, 241, 43); color: white;">< EPAM LOGIN ></button>
+
+    </div>
+</div>
+</div>
+</html>
